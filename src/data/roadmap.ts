@@ -26,10 +26,10 @@ export const roadmapPhases: RoadmapPhase[] = [
     phase: 0,
     title: 'Phase 0: JOINT PREPARATION',
     subtitle: 'The Foundation You Cannot Skip',
-    duration: '2-4 weeks (ongoing throughout life)',
+    duration: '2-4 weeks ',
     level: 'foundation',
     color: 'from-slate-500 to-slate-700',
-    description: 'Before any calisthenics training begins, the joints must be prepared. This phase is non-negotiable and is the most commonly skipped — which is why injuries are so common. Wrist mobility, scapular stability, shoulder mobility, and hip mobility must all be addressed before loading the body. Many people skip this phase and pay with months of injury setbacks.',
+    description: 'Joint warm-up is essential before calisthenics. Mobilize wrists, shoulders, scapula, and hips to prevent injury. Skipping it increases injury risk.',
     goals: [
       'Develop baseline wrist extension to 70-80 degrees',
       'Establish scapular motor control and awareness',
@@ -110,7 +110,7 @@ export const roadmapPhases: RoadmapPhase[] = [
     duration: '8-16 weeks',
     level: 'beginner',
     color: 'from-green-500 to-emerald-700',
-    description: 'The most important phase of your calisthenics journey. Every elite calisthenics athlete traces their success back to an unshakeable foundation. This phase is about mastering the fundamental movement patterns — push, pull, core, and legs — with perfect form. Progress is not measured in how many reps you can do but in how perfectly you can do each one.',
+    description: 'Foundation phase is key in calisthenics. Focus on push, pull, core, and legs with proper form. Quality matters more than reps.',
     goals: [
       'Achieve 20 perfect push-ups',
       'Achieve 10 strict pull-ups from dead hang',
@@ -197,7 +197,7 @@ export const roadmapPhases: RoadmapPhase[] = [
     duration: '12-24 weeks',
     level: 'intermediate',
     color: 'from-blue-500 to-blue-700',
-    description: 'You have mastered the fundamentals. Now the real calisthenics journey begins. This phase introduces skill training, compression strength (L-sit), overhead work (pike push-ups, wall handstand), and the first elements of planche and lever conditioning. This is where calisthenics becomes genuinely exciting.',
+    description: 'You’ve mastered the basics. Now begin skill work: L-sits, pike push-ups, handstands, and planche/lever prep. This is where real progress starts.',
     goals: [
       'Achieve first muscle-up or solid progressions toward it',
       'Establish solid L-sit hold (15+ seconds)',
@@ -290,7 +290,7 @@ export const roadmapPhases: RoadmapPhase[] = [
     duration: '12-36 months (highly individual)',
     level: 'advanced',
     color: 'from-orange-500 to-red-600',
-    description: 'Phase 3 is where the truly extraordinary skills are developed. Full planche, full front lever, HSPU, freestanding handstand, one-arm push-up, and ring skills all live here. Progress at this level is slow and requires exceptional patience, technique, and consistency. Months without visible progress are normal — structural adaptation is happening beneath the surface.',
+    description: 'Phase 3 builds advanced skills like planche, front lever, handstand push-ups, one-arm push-ups, and ring work. Progress is slow and requires patience, consistency, and precision.',
     goals: [
       'Achieve freestanding handstand 30+ seconds',
       'Achieve wall HSPU 5-10 reps',
@@ -382,7 +382,7 @@ export const roadmapPhases: RoadmapPhase[] = [
     duration: 'Ongoing — mastery has no end point',
     level: 'elite',
     color: 'from-purple-600 to-yellow-500',
-    description: 'Phase 4 represents the elite tier of calisthenics — iron cross, full planche, one-arm handstand, Maltese, Victorian, one-arm pull-up, and beyond. Very few practitioners reach this level. Those who do have typically dedicated 5-10+ years of consistent, intelligent training. At this level, training is as much art as science.',
+    description: 'Phase 4 is elite calisthenics: iron cross, Maltese, Victorian, one-arm handstand, and one-arm pull-up. Reaching this level takes years of consistent, disciplined training.',
     goals: [
       'Iron cross 5+ seconds',
       'Full planche 10+ seconds and planche push-ups',

@@ -74,16 +74,16 @@ const App: React.FC = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-sm font-black tracking-wider text-gradient-accent mb-1">CALIX</div>
           <div className="text-xs calix-muted">
-            Developed & Owned by Ammar Zahid | All Rights Reserved - 2026
+            Developed & Owned by Ammar Zahid | All Rights Reserved
           </div>
           <div className="flex items-center justify-center gap-4 mt-3 text-xs calix-muted">
-            <span>💪 60+ Exercises</span>
+            <span>💪 Exercises</span>
             <span>·</span>
-            <span>🗺️ Complete Roadmap</span>
+            <span>🗺️ Roadmap</span>
             <span>·</span>
-            <span>📋 Training Programs</span>
+            <span>📋 Programs</span>
             <span>·</span>
-            <span>🛡️ Injury Prevention</span>
+            <span>🛡️ Safety</span>
           </div>
         </div>
       </footer>

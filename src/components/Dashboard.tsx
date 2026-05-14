@@ -261,8 +261,8 @@ export const Dashboard: React.FC<DashboardProps> = ({ setActiveTab }) => {
       {/* System Overview */}
       <div className="rounded-2xl p-6" style={{ backgroundColor: 'var(--calix-surface)', border: '1px solid var(--calix-border)' }}>
         <h3 className="font-bold text-xl mb-2" style={{ color: 'var(--calix-text)' }}>What CALIX Contains</h3>
-        <p className="text-sm mb-6 calix-muted">Everything you need to go from absolute beginner to elite mastery — permanently offline</p>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <p className="text-sm mb-6 calix-muted">Everything you need to go from absolute beginner to elite mastery</p>
+        <div className="grid md:grid-cols-4 gap-4">
           {[
             { icon: '💪', label: '50+ Exercises', sub: 'Beginner to Elite' },
             { icon: '🌳', label: 'Skill Trees', sub: 'Full prerequisite maps' },

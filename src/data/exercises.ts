@@ -41,7 +41,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Chest (Pectoralis Major)', 'Anterior Deltoid', 'Triceps Brachii', 'Serratus Anterior'],
     prerequisites: [],
     unlocks: ['incline-push-up', 'knee-push-up'],
-    description: 'The entry-level push pattern. Performed standing against a wall at an incline, this movement teaches proper pushing mechanics, scapular protraction, and core tension with minimal load. Foundation of all horizontal pushing movements.',
+    description: 'Beginner push using a wall incline. Builds push mechanics, scapular control, and core tension. Base of all push movements.',
     executionSteps: [
       'Stand arm-length from a wall, place hands shoulder-width apart at chest height.',
       'Body forms a straight diagonal line from head to heels — activate core and glutes.',
@@ -91,7 +91,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Pectoralis Major (lower fibers)', 'Anterior Deltoid', 'Triceps', 'Serratus Anterior', 'Core'],
     prerequisites: ['wall-push-up'],
     unlocks: ['push-up', 'knee-push-up', 'diamond-push-up'],
-    description: 'Performed with hands elevated on a surface (bench, box, step). Increases load over wall push-up while maintaining the same pushing mechanics. The ideal intermediate bridge to full push-ups.',
+    description: 'Hands elevated push-up (bench/box). Increases load while keeping proper form. Bridge between wall and full push-ups.',
     executionSteps: [
       'Place hands on a surface at approximately hip height.',
       'Walk feet back until body forms a straight diagonal line.',
@@ -139,7 +139,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Pectoralis Major', 'Anterior Deltoid', 'Triceps Brachii', 'Serratus Anterior', 'Core (Anti-Extension)', 'Glutes', 'Quads (Isometric)'],
     prerequisites: ['incline-push-up'],
     unlocks: ['wide-push-up', 'diamond-push-up', 'archer-push-up', 'pike-push-up', 'explosive-push-up', 'pseudo-planche-push-up', 'decline-push-up'],
-    description: 'THE foundational horizontal pushing exercise of calisthenics. Far more than a chest exercise — a full-body tension drill, scapular health builder, and gateway to elite pushing skills. Perfect push-up mechanics are the base of almost every advanced pushing skill in calisthenics.',
+    description: 'Core calisthenics push movement. Builds full-body tension, scapular control, and strength. Foundation for all advanced push skills.',
     executionSteps: [
       'Start in plank position, hands slightly wider than shoulder-width, fingers spread.',
       'Stack wrists below or slightly outside shoulders.',
@@ -195,7 +195,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Triceps Brachii (primary)', 'Pectoralis Major (clavicular head)', 'Anterior Deltoid'],
     prerequisites: ['push-up'],
     unlocks: ['pike-push-up'],
-    description: 'Hands placed close together forming a diamond shape. Maximum triceps engagement, minimum pectoral contribution. Critical for building elbow extension strength for planche and handstand push-up progressions.',
+    description: 'Hands in diamond shape. Focuses on triceps strength and elbow extension. Useful for planche and handstand push-up progressions.',
     executionSteps: [
       'Form a diamond shape with hands — thumbs and index fingers touch.',
       'Position diamond at or slightly below chest level.',
@@ -240,7 +240,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Upper Pectoralis (clavicular)', 'Anterior Deltoid', 'Triceps', 'Serratus Anterior'],
     prerequisites: ['push-up'],
     unlocks: ['pike-push-up', 'handstand-push-up'],
-    description: 'Push-up with feet elevated above hands. Shifts loading emphasis to upper chest and anterior deltoid. Gateway movement toward vertical pressing by gradually shifting the angle of the pressing force.',
+    description: 'Feet-elevated push-up. Targets upper chest and shoulders. Prepares you for vertical pressing strength.',
     executionSteps: [
       'Place feet on elevated surface (higher = harder).',
       'Hands on floor, slightly wider than shoulder-width.',
@@ -285,7 +285,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Pectoralis Major', 'Anterior Deltoid', 'Triceps', 'Serratus Anterior', 'Biceps (eccentric assist)', 'Core'],
     prerequisites: ['push-up'],
     unlocks: ['one-arm-push-up'],
-    description: 'An asymmetric push-up where one arm bends while the other remains straight as counterbalance. The most effective intermediate progression toward the one-arm push-up. Trains unilateral strength, horizontal adduction, and asymmetric loading.',
+    description: 'One arm bends while the other stays straight. Builds unilateral strength and control. Key step toward one-arm push-up.',
     executionSteps: [
       'Start wide — hands 2-2.5x shoulder-width apart.',
       'Shift bodyweight to one side and begin lowering toward that arm.',
@@ -332,7 +332,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Anterior Deltoid (primary)', 'Lateral Deltoid', 'Triceps', 'Upper Trapezius', 'Serratus Anterior'],
     prerequisites: ['decline-push-up', 'diamond-push-up'],
     unlocks: ['wall-handstand-push-up'],
-    description: 'Performed in a pike position (hips high, forming inverted-V). Transitions loading from horizontal pressing to near-vertical shoulder pressing. The critical bridge between push-up mastery and handstand push-up. Begins developing the head-through pressing pattern needed for HSPUs.',
+    description: 'Pike position push-up (hips raised). Shifts load to shoulders. Bridge between push-ups and handstand push-ups.',
     executionSteps: [
       'Start in downward dog position — hips high, body forming inverted-V.',
       'Walk feet in closer to increase angle (more upright = harder).',
@@ -380,7 +380,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Anterior Deltoid (primary)', 'Pectoralis Major', 'Triceps', 'Serratus Anterior', 'Core (anti-extension)'],
     prerequisites: ['push-up', 'diamond-push-up'],
     unlocks: ['tuck-planche', 'planche-lean'],
-    description: 'Push-up performed with hands turned backward (fingers pointing toward feet) and placed beside the hips, leaning body forward. Dramatically shifts load toward shoulders and mimics the pressing mechanics of the planche. The primary conditioning drill for planche development.',
+    description: 'Hands by hips, fingers backward, body leaned forward. Builds shoulder strength and mimics planche mechanics. Key drill for planche training.',
     executionSteps: [
       'From push-up position, rotate hands backward 180 degrees (fingers toward feet).',
       'Walk hands down toward hips, shifting bodyweight forward over hands.',
@@ -428,7 +428,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Pectoralis Major', 'Anterior Deltoid', 'Triceps', 'Core'],
     prerequisites: ['push-up'],
     unlocks: ['clapping-push-up'],
-    description: 'Push-up where the concentric phase is performed explosively enough to lift hands off ground. Develops rate of force development (RFD), power output, and the elastic component of the pushing chain. Foundation for clapping push-ups.',
+    description: 'Explosive push-up with hands leaving the ground. Builds power, speed, and force output. Base for advanced plyometric push-ups.',
     executionSteps: [
       'Start in perfect push-up position.',
       'Perform a controlled descent (2-3 seconds).',
@@ -475,7 +475,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Pectoralis Major', 'Anterior Deltoid', 'Triceps', 'Core'],
     prerequisites: ['explosive-push-up'],
     unlocks: ['double-clap-push-up', 'superman-push-up'],
-    description: 'Explosive push-up with enough height to clap hands together during air time. A high-power movement that tests upper body explosive strength and coordination. Popular in street workout demonstrations.',
+    description: 'Explosive push-up with a clap in mid-air. Builds upper-body power, speed, and coordination. Common in street workout training.',
     executionSteps: [
       'Standard push-up position.',
       'Perform slow controlled descent.',
@@ -520,7 +520,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Pectoralis Major (unilateral)', 'Anterior Deltoid', 'Triceps', 'Core (anti-rotation)', 'Obliques', 'Glutes'],
     prerequisites: ['archer-push-up', 'pseudo-planche-push-up'],
     unlocks: ['ring-one-arm-push-up'],
-    description: 'The pinnacle of horizontal pushing in floor calisthenics. One arm supports full bodyweight through horizontal pressing range. Requires exceptional unilateral strength, anti-rotation core strength, hip stability, and technique.',
+    description: 'Peak floor push movement. One arm supports full bodyweight with strict form. Demands extreme strength, core stability, and control.',
     executionSteps: [
       'Start with feet wide (2-3x shoulder width) for base of support.',
       'One hand placed directly below shoulder or slightly inside.',
@@ -571,7 +571,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Latissimus Dorsi', 'Serratus Anterior', 'Rotator Cuff', 'Forearms', 'Grip', 'Shoulder Capsule'],
     prerequisites: [],
     unlocks: ['scapular-pull', 'australian-row', 'active-hang'],
-    description: 'Hanging passively from a bar with arms fully extended. The single most important foundational exercise for bar work. Decompresses the spine, builds grip strength, conditions the shoulder joint, and prepares tendons for pulling work. Non-negotiable for anyone beginning pull-up training.',
+    description: 'Dead hang from a bar with straight arms. Builds grip strength, shoulder stability, and spine decompression. Essential base for all pulling exercises.',
     executionSteps: [
       'Grip bar slightly wider than shoulder-width. Overhand (pronated) grip.',
       'Jump or step off — let gravity pull you into a full hang.',
@@ -618,7 +618,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Lower Trapezius', 'Serratus Anterior', 'Rhomboids', 'Latissimus Dorsi (initiating fibers)'],
     prerequisites: ['dead-hang'],
     unlocks: ['pull-up', 'australian-row'],
-    description: 'From a dead hang, initiate the pull by depressing and retracting the scapulae WITHOUT bending the elbows. Arms remain straight. Isolates the scapular depression that initiates every proper pull-up and builds lower trapezius strength critical for shoulder health.',
+    description: 'From a dead hang, pull shoulders down and back without bending elbows. Builds scapular control and shoulder strength. Foundation for pull-ups.',
     executionSteps: [
       'Start in full dead hang, arms completely straight.',
       'WITHOUT bending elbows, pull your shoulder blades DOWN and BACK.',
@@ -664,7 +664,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Latissimus Dorsi', 'Biceps Brachii', 'Rear Deltoid', 'Rhomboids', 'Mid Trapezius', 'Core'],
     prerequisites: ['dead-hang'],
     unlocks: ['pull-up', 'ring-row'],
-    description: 'Horizontal pulling movement performed with body inclined below a low bar. The horizontal pull equivalent of the push-up — foundational for back strength and pulling pattern development. Bridges the gap between no pulling strength and pull-up ability.',
+    description: 'Horizontal pull under a low bar. Builds back strength and pulling mechanics. Base progression toward pull-ups.',
     executionSteps: [
       'Position under a low bar (hip to chest height) in supine position.',
       'Grip bar overhand, slightly wider than shoulder-width.',
@@ -713,7 +713,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Latissimus Dorsi (primary)', 'Biceps Brachii', 'Rear Deltoid', 'Lower Trapezius', 'Rhomboids', 'Brachialis', 'Core'],
     prerequisites: ['dead-hang', 'scapular-pull', 'australian-row'],
     unlocks: ['chin-up', 'wide-grip-pull-up', 'L-sit-pull-up', 'muscle-up', 'front-lever'],
-    description: 'THE fundamental vertical pulling movement of calisthenics. Overhand grip (pronated). Pulling entire body weight from dead hang to chin-over-bar. The gateway to virtually every advanced bar skill.',
+    description: 'Core vertical pull with overhand grip. Lifts body from hang to chin over bar. Foundation for all advanced pulling skills.',
     executionSteps: [
       'Grip bar with pronated (overhand) grip, slightly wider than shoulder-width.',
       'Full dead hang — arms completely straight.',
@@ -766,7 +766,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Latissimus Dorsi', 'Biceps Brachii', 'Lower Trapezius', 'Core'],
     prerequisites: ['dead-hang', 'scapular-pull'],
     unlocks: ['pull-up'],
-    description: 'The concentric phase is avoided by jumping or stepping to the top position — then the eccentric (lowering) phase is performed with maximum control. Eccentric training produces the highest mechanical tension per rep and is the fastest way to build pull-up strength when unable to complete full reps.',
+    description: 'Start at the top and slowly lower down. Builds strength through controlled eccentric tension. Fast way to develop pull-up strength.',
     executionSteps: [
       'Jump or use a box to get to chin-over-bar position.',
       'At the top, engage lats — imagine bending the bar.',
@@ -814,7 +814,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Biceps Brachii (high activation)', 'Latissimus Dorsi', 'Lower Trapezius', 'Rear Deltoid', 'Brachioradialis'],
     prerequisites: ['pull-up'],
     unlocks: ['weighted-chin-up', 'one-arm-chin-up'],
-    description: 'Pull-up with underhand (supinated) grip. The supinated forearm position places the biceps in a mechanically advantageous position, making chin-ups typically 20-30% easier than pull-ups. Higher bicep activation — the go-to movement for arm development in calisthenics.',
+    description: 'Underhand grip pull-up. Easier than pull-ups with higher biceps activation. Builds arm and back strength.',
     executionSteps: [
       'Grip bar underhand (supinated), shoulder-width.',
       'Dead hang — arms fully straight.',
@@ -859,7 +859,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Latissimus Dorsi', 'Biceps Brachii', 'Pectoralis Major', 'Triceps', 'Anterior Deltoid', 'Core', 'Lower Trap'],
     prerequisites: ['pull-up', 'dip', 'australian-row'],
     unlocks: ['strict-muscle-up', 'ring-muscle-up'],
-    description: 'One of the most iconic skills in calisthenics — transitioning from below the bar to above the bar in a continuous explosive motion. Combines a pull-up with a transition and a dip. Exists in two forms: the kipping/dynamic version and the strict version.',
+    description: 'Explosive move from below to above the bar. Combines pull-up and dip. Builds full upper-body strength and coordination.',
     executionSteps: [
       'Begin with a false grip (wrists over the bar) for easier transition.',
       'From dead hang, generate momentum with a powerful pull.',
@@ -909,7 +909,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Latissimus Dorsi (primary)', 'Lower Trapezius', 'Rear Deltoid', 'Core (anti-extension)', 'Biceps', 'Teres Major'],
     prerequisites: ['pull-up', 'L-sit', 'tuck-front-lever'],
     unlocks: ['front-lever-pull', 'front-lever-raise'],
-    description: 'The front lever is a horizontal hanging position where the body is parallel to the ground, facing up, supported only by arms extended overhead gripping a bar. One of the most revered static holds in calisthenics — demonstrating elite pulling strength, core strength, and body tension.',
+    description: 'Horizontal hold on a bar with body parallel to ground. Builds elite core and pulling strength. One of calisthenics’ hardest static skills.',
     executionSteps: [
       'Hang from bar with overhand grip.',
       'Pull into tuck position first — knees to chest.',
@@ -960,7 +960,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Biceps Brachii', 'Anterior Deltoid', 'Pectoralis Major', 'Core (extension)', 'Lower Back'],
     prerequisites: ['pull-up', 'skin-the-cat'],
     unlocks: ['back-lever-pull'],
-    description: 'Horizontal hanging position facing down — the body is parallel to the ground with arms overhead gripping bar. Less demanding than front lever, making it a crucial stepping stone into lever skills.',
+    description: 'Face-down horizontal hold on a bar. Easier than front lever and builds core and pulling strength. Key step in lever progression.',
     executionSteps: [
       'Begin from hang — perform skin-the-cat to German hang position.',
       'From German hang, straighten body backward.',
@@ -1009,7 +1009,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Latissimus Dorsi (maximal)', 'Biceps Brachii', 'Brachioradialis', 'Lower Trapezius', 'Core', 'Rotator Cuff'],
     prerequisites: ['pull-up', 'chin-up', 'archer-pull-up'],
     unlocks: ['typewriter-pull-up'],
-    description: 'The absolute pinnacle of pulling strength — one arm pulling entire bodyweight from dead hang to chin-over-bar. Requires extraordinary levels of lat, biceps, and scapular strength. One of the rarest skills in calisthenics. Most practitioners require 2-5 years of dedicated training.',
+    description: 'Ultimate one-arm pull from dead hang to chin over bar. Demands extreme strength and control. One of the rarest calisthenics skills.',
     executionSteps: [
       'One hand grips bar with false grip (wrist over).',
       'Free arm hangs or placed on wrist for assisted version.',
@@ -1057,7 +1057,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Rectus Abdominis', 'Transverse Abdominis', 'Hip Flexors', 'Serratus Anterior'],
     prerequisites: [],
     unlocks: ['hollow-body-rock', 'tuck-planche', 'L-sit', 'handstand'],
-    description: 'The hollow body position is the fundamental body shape for gymnastics and calisthenics. A supine position where the lower back is pressed flat, abs braced, arms overhead, legs extended and elevated. This is the body tension template for virtually every skill.',
+    description: 'Core calisthenics position with lower back flat, abs tight, and limbs extended. Builds full-body tension and foundation for all skills.',
     executionSteps: [
       'Lie supine (face up) on the floor.',
       'Press lower back firmly into the floor — eliminate the arch.',
@@ -1109,7 +1109,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Erector Spinae', 'Gluteus Maximus', 'Hamstrings', 'Rear Deltoid', 'Lower Trapezius'],
     prerequisites: [],
     unlocks: ['back-lever'],
-    description: 'The arch body is the opposite of hollow body — a prone position with arms overhead, body arching to lift arms and legs off the ground. The posterior chain activation pattern required for back lever and posterior chain skills.',
+    description: 'Opposite of hollow hold. Lifts chest, arms, and legs off ground. Builds posterior chain strength for advanced skills.',
     executionSteps: [
       'Lie prone (face down) on the floor.',
       'Arms extended fully overhead.',
@@ -1155,7 +1155,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Transverse Abdominis', 'Rectus Abdominis', 'Obliques', 'Erector Spinae (stabilizer)', 'Glutes', 'Quads', 'Shoulders'],
     prerequisites: ['hollow-body'],
     unlocks: ['side-plank', 'push-up', 'dragon-flag', 'L-sit'],
-    description: 'The plank is the top position of a push-up held isometrically. The most important core exercise for calisthenics — teaches full body tension, anti-extension strength, and the rigid body position essential for push-ups, handstands, and countless other skills.',
+    description: 'Static push-up hold. Builds core strength and full-body tension. Essential base for all calisthenics skills.',
     executionSteps: [
       'From push-up position — hands directly below shoulders.',
       'Full arm extension.',
@@ -1205,7 +1205,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Rectus Abdominis', 'Hip Flexors (Iliopsoas, Rectus Femoris)', 'Triceps', 'Anterior Deltoid', 'Lower Trapezius', 'Serratus Anterior'],
     prerequisites: ['plank', 'hollow-body', 'push-up'],
     unlocks: ['V-sit', 'L-sit-pull-up', 'tuck-planche', 'manna'],
-    description: 'A compression hold where the body is supported on straight arms with legs held horizontally parallel to the ground. Develops extraordinary hip flexor strength, tricep straight-arm strength, and core compression — prerequisite for V-sit, manna, and many advanced skills.',
+    description: 'Straight-arm hold with legs lifted forward. Builds core compression, hip flexor, and arm strength. Base for advanced compression skills.',
     executionSteps: [
       'On parallettes or dip bars (or fists on floor), press body up with straight arms.',
       'Depress scapulae — push shoulders down away from ears.',
@@ -1255,7 +1255,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Rectus Abdominis', 'Transverse Abdominis', 'Obliques', 'Hip Flexors', 'Erector Spinae (stabilizer)', 'Glutes'],
     prerequisites: ['plank', 'hollow-body'],
     unlocks: ['dragon-flag-variations'],
-    description: 'Made famous by Bruce Lee — lying on a bench, holding behind the head, extending body to near-vertical then lowering the entire straight body as a unit to nearly horizontal. The body acts as a rigid lever against the fixed upper back.',
+    description: 'Full-body lever movement on a bench. Builds core, hip, and back strength. Popularized by Bruce Lee.',
     executionSteps: [
       'Lie on a bench, grip behind the head (uprights or sides).',
       'Curl into a hollow body position.',
@@ -1305,7 +1305,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Pectoralis Major (lower)', 'Triceps Brachii', 'Anterior Deltoid', 'Serratus Anterior', 'Core'],
     prerequisites: ['push-up'],
     unlocks: ['weighted-dip', 'ring-dip', 'muscle-up', 'korean-dip'],
-    description: 'The fundamental vertical pushing movement on parallel bars. Develops tremendous tricep, lower chest, and shoulder strength. Foundation for muscle-ups, ring dips, and weighted pushing.',
+    description: 'Vertical push on parallel bars. Builds triceps, chest, and shoulder strength. Base for muscle-ups and advanced dips.',
     executionSteps: [
       'Mount dip bars with straight arms, body vertical.',
       'Depress scapulae — pull shoulders DOWN away from ears.',
@@ -1356,7 +1356,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Triceps', 'Anterior Deltoid', 'Pectoralis Major', 'Serratus Anterior', 'All Shoulder Stabilizers', 'Core'],
     prerequisites: ['push-up', 'dip'],
     unlocks: ['ring-dip', 'ring-push-up', 'ring-muscle-up'],
-    description: 'The foundation of all ring work. Holding the support position above the rings with arms extended. This position must be mastered before any ring pushing movements are attempted.',
+    description: 'Straight-arm hold above rings. Builds stability and control. Base for all ring exercises.',
     executionSteps: [
       'Jump up and grip the rings at hip level.',
       'Press to full arm extension — shoulder height.',
@@ -1397,7 +1397,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Pectoralis Major', 'Triceps', 'Anterior Deltoid', 'Stabilizers (all shoulder muscles)', 'Core'],
     prerequisites: ['dip', 'ring-support-hold'],
     unlocks: ['ring-muscle-up', 'deep-ring-dip'],
-    description: 'Dip performed on gymnastic rings. Dramatically increased demand compared to bar dips due to instability requiring constant stabilization. A major step in ring training mastery.',
+    description: 'Dip performed on rings. Builds strength and stability under instability. Key step in ring training.',
     executionSteps: [
       'Mount rings in support position — rings turned out (RTO) at top.',
       'Rings at hip level, arms fully extended.',
@@ -1445,7 +1445,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Lats', 'Biceps', 'Pectoralis', 'Triceps', 'All Shoulder Stabilizers', 'Core'],
     prerequisites: ['muscle-up', 'ring-dip', 'ring-support-hold'],
     unlocks: ['ring-muscle-up-variations'],
-    description: 'The ring version of the muscle-up — significantly more difficult than bar muscle-up due to ring instability. The false grip is essential. A prestigious skill in ring gymnastics and calisthenics.',
+    description: 'Muscle-up on rings using a false grip. Highly challenging due to instability. Elite ring strength and control skill.',
     executionSteps: [
       'Establish false grip on rings (wrists over rings).',
       'From hang, pull explosively — the unstable rings make this harder.',
