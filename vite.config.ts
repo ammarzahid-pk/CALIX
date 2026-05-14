@@ -18,7 +18,7 @@ export default defineConfig({
 
     VitePWA({
       registerType: "autoUpdate",
-
+      injectRegister: "auto",
       manifest: {
         name: "CALIX",
         short_name: "CALIX",
