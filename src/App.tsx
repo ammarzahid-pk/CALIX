@@ -74,7 +74,7 @@ const App: React.FC = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-sm font-black tracking-wider text-gradient-accent mb-1">CALIX</div>
           <div className="text-xs calix-muted">
-            A Complete Calisthenics Mastery System
+            Developed & Owned by Ammar Zahid | All Rights Reserved - 2026
           </div>
           <div className="flex items-center justify-center gap-4 mt-3 text-xs calix-muted">
             <span>💪 60+ Exercises</span>
