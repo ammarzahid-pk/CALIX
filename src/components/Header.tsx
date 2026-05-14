@@ -29,13 +29,18 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab, darkMod
       <div className="flex items-center justify-between px-4 py-3">
         {/* Logo */}
         <div className="flex items-center gap-3">
-          <div className="flex items-center justify-center w-10 h-10 rounded-xl gradient-accent">
+          {/* <div className="flex items-center justify-center w-10 h-10 rounded-xl gradient-accent">
             <span className="text-white font-black text-lg">C</span>
-          </div>
+          </div> */}
+          <img
+            src="/icon-192.png"
+            alt="Calix Logo"
+            className="w-10 h-10 rounded-xl object-cover"
+          />
           <div>
             <div className="font-black text-xl tracking-wider text-gradient-accent">CALIX</div>
             <div className="text-xs opacity-50 tracking-widest uppercase leading-none" style={{ color: 'var(--calix-text)' }}>
-              Calisthenics Master System
+              MASTER YOUR MOVEMENT
             </div>
           </div>
         </div>
@@ -69,9 +74,8 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab, darkMod
           <button
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
-            className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 whitespace-nowrap ${
-              activeTab === tab.id ? 'tab-active' : ''
-            }`}
+            className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 whitespace-nowrap ${activeTab === tab.id ? 'tab-active' : ''
+              }`}
             style={activeTab !== tab.id ? {
               color: 'var(--calix-muted)',
               backgroundColor: 'transparent'
@@ -91,9 +95,8 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab, darkMod
             <button
               key={tab.id}
               onClick={() => { setActiveTab(tab.id); setMobileMenuOpen(false); }}
-              className={`flex flex-col items-center gap-1 py-3 px-2 rounded-xl text-xs font-medium transition-all ${
-                activeTab === tab.id ? 'tab-active' : ''
-              }`}
+              className={`flex flex-col items-center gap-1 py-3 px-2 rounded-xl text-xs font-medium transition-all ${activeTab === tab.id ? 'tab-active' : ''
+                }`}
               style={activeTab !== tab.id ? {
                 color: 'var(--calix-muted)',
                 backgroundColor: 'var(--calix-surface2)',

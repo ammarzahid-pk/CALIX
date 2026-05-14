@@ -95,7 +95,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ setActiveTab }) => {
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
             <div>
               <div className="text-xs font-bold tracking-widest uppercase mb-2" style={{ color: '#6c63ff' }}>
-                THE COMPLETE CALISTHENICS MASTER SYSTEM
+                A COMPLETE CALISTHENICS MASTERY SYSTEM
               </div>
               <h1 className="text-4xl md:text-6xl font-black text-white mb-3 tracking-tight">
                 CALIX

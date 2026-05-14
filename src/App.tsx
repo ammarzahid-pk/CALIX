@@ -74,14 +74,14 @@ const App: React.FC = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-sm font-black tracking-wider text-gradient-accent mb-1">CALIX</div>
           <div className="text-xs calix-muted">
-            The Complete Calisthenics Master System · Fully Offline · All data stored locally
+            A Complete Calisthenics Mastery System
           </div>
           <div className="flex items-center justify-center gap-4 mt-3 text-xs calix-muted">
-            <span>💪 50+ Exercises</span>
+            <span>💪 60+ Exercises</span>
             <span>·</span>
-            <span>🗺️ 5-Phase Roadmap</span>
+            <span>🗺️ Complete Roadmap</span>
             <span>·</span>
-            <span>📋 4 Programs</span>
+            <span>📋 Training Programs</span>
             <span>·</span>
             <span>🛡️ Injury Prevention</span>
           </div>
