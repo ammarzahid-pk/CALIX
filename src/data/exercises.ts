@@ -1486,7 +1486,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Lats', 'Rear Deltoid', 'Serratus Anterior', 'Teres Major', 'Shoulder Capsule (flexibility)'],
     prerequisites: ['pull-up', 'dead-hang'],
     unlocks: ['back-lever', 'german-hang'],
-    description: 'A foundational gymnastics movement — from a hang, the legs pass through the arms and the body moves to an inverted hang behind the bar (German hang). Stretches the shoulder capsule and develops the shoulder range of motion required for back lever and inverted ring skills.',
+    description: 'Gymnastics movement into a German hang. Improves shoulder mobility and flexibility. Important for back lever and ring skills.',
     executionSteps: [
       'Hang from bar or rings in overhand grip.',
       'Tuck knees and bring them toward chest.',
@@ -1529,7 +1529,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Pectoralis Major', 'Anterior Deltoid', 'Coracobrachialis', 'Biceps Brachii', 'Serratus Anterior', 'Core'],
     prerequisites: ['ring-support-hold', 'ring-dip', 'ring-muscle-up'],
     unlocks: ['maltese-progressions'],
-    description: 'A legendary gymnastics skill where the athlete holds their body vertical on gymnastic rings with arms extended horizontally to the sides. One of the hardest and most respected skills in all of gymnastics and ring calisthenics.',
+    description: 'Elite ring skill with arms held straight out to the sides. Requires extreme strength and control. One of gymnastics’ hardest moves.',
     executionSteps: [
       'Mount rings from below — ring support position.',
       'Lower body slowly by extending arms outward while maintaining body vertical.',
@@ -1572,7 +1572,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Anterior Deltoid', 'Pectoralis Major', 'Serratus Anterior', 'Core', 'Triceps', 'Wrist Flexors'],
     prerequisites: ['push-up', 'pseudo-planche-push-up'],
     unlocks: ['tuck-planche'],
-    description: 'A static lean in the top position of a pseudo planche push-up. Body leans forward over hands, maximizing the shoulder-to-hand angle. The most direct way to develop planche-specific shoulder strength without the full skill.',
+    description: 'Forward lean hold over the hands. Builds planche-specific shoulder strength and balance. Key planche progression.',
     executionSteps: [
       'Assume pseudo planche position (hands turned backward, beside hips).',
       'Lean body FORWARD over hands — tilt center of gravity over or past the hands.',
@@ -1612,7 +1612,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Anterior Deltoid', 'Serratus Anterior', 'Triceps', 'Core', 'Wrist Extensors', 'Pectoralis Major'],
     prerequisites: ['planche-lean', 'L-sit', 'pseudo-planche-push-up'],
     unlocks: ['advanced-tuck-planche'],
-    description: 'First progression of the full planche. Knees drawn to chest, back rounded, body levitated horizontally off the ground with straight arms. Requires significant anterior deltoid and core strength.',
+    description: 'First step toward planche. Knees tucked, back rounded, body held off ground on straight arms. Builds core and shoulder strength.',
     executionSteps: [
       'Start in pseudo planche position — lean forward.',
       'Begin lifting feet off the ground by drawing knees to chest.',
@@ -1660,7 +1660,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Anterior Deltoid', 'Serratus Anterior', 'Pectoralis Major', 'Core', 'Triceps', 'Wrist Stabilizers'],
     prerequisites: ['tuck-planche'],
     unlocks: ['full-planche'],
-    description: 'Planche progression with legs straddled wide apart. Midpoint between advanced tuck planche and full planche. The straddle reduces the horizontal moment arm while requiring the body to be fully extended.',
+    description: 'Planche variation with legs spread wide. Easier than full planche while keeping full-body extension. Intermediate planche progression.',
     executionSteps: [
       'From advanced tuck planche, gradually extend knees while spreading legs apart.',
       'Continue spreading legs until fully extended in straddle position.',
@@ -1700,7 +1700,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Anterior Deltoid (maximum)', 'Serratus Anterior', 'Pectoralis Major', 'Triceps', 'Core', 'Wrist Stabilizers'],
     prerequisites: ['straddle-planche'],
     unlocks: ['planche-push-up'],
-    description: 'The holy grail of floor calisthenics — body held perfectly horizontal, parallel to the ground, supported only on straight arms. One of the most difficult skills in calisthenics. Only elite practitioners achieve a true full planche.',
+    description: 'Elite skill holding the body horizontal on straight arms. Requires extreme strength, balance, and control. One of calisthenics’ hardest moves.',
     executionSteps: [
       'From straddle planche, slowly bring legs together.',
       'Maintain perfect horizontal position throughout the transition.',
@@ -1742,7 +1742,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Anterior Deltoid', 'Triceps', 'Upper Trapezius', 'Serratus Anterior', 'Core', 'Wrist Extensors'],
     prerequisites: ['plank', 'push-up', 'hollow-body'],
     unlocks: ['chest-to-wall-handstand', 'handstand-push-up'],
-    description: 'The entry-level handstand position — kicking up against a wall with heels resting on the wall. Develops shoulder strength, overhead alignment, wrist conditioning, and body awareness without the balance challenge of a free handstand.',
+    description: 'Beginner handstand against a wall. Builds shoulder strength, balance awareness, and wrist conditioning safely.',
     executionSteps: [
       'Start in plank position with feet against wall.',
       'Walk feet up the wall while walking hands toward wall.',
@@ -1790,7 +1790,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Anterior Deltoid (primary)', 'Triceps', 'Upper Trapezius', 'Serratus Anterior', 'Core'],
     prerequisites: ['wall-handstand', 'pike-push-up'],
     unlocks: ['deficit-handstand-push-up', 'freestanding-handstand-push-up'],
-    description: 'Full overhead pressing movement inverted — lowering head to floor and pressing back to handstand position. One of the most demanding pressing movements achievable with bodyweight. Direct analog to the barbell overhead press but with full bodyweight.',
+    description: 'Inverted overhead press in a handstand. Builds extreme shoulder and pressing strength. One of the hardest bodyweight presses.',
     executionSteps: [
       'Kick up to handstand against wall, heels on wall.',
       'Hands 8-12 inches from wall.',
@@ -1838,7 +1838,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Anterior Deltoid', 'Serratus Anterior', 'Wrist Flexors/Extensors', 'Core', 'Triceps', 'All Shoulder Stabilizers'],
     prerequisites: ['wall-handstand', 'chest-to-wall-handstand'],
     unlocks: ['one-arm-handstand', 'freestanding-handstand-push-up'],
-    description: 'The freestanding handstand is the ultimate expression of body control, balance, and overhead strength combined. No wall support — pure balance on the hands. Opens an enormous world of advanced skills once mastered.',
+    description: 'Free balance handstand without wall support. Builds control, balance, and shoulder strength. Gateway to advanced skills.',
     executionSteps: [
       'Kick up from lunge position — dominant leg kicks up.',
       'Hands shoulder-width on floor, fingers spread and gripping.',
@@ -1886,7 +1886,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Quadriceps', 'Gluteus Maximus', 'Hamstrings', 'Adductors', 'Calves', 'Core'],
     prerequisites: [],
     unlocks: ['jump-squat', 'pistol-squat', 'deep-squat'],
-    description: 'The foundational lower body movement. Full squats develop leg strength, hip mobility, ankle mobility, and lower body coordination. Essential foundation for all advanced leg work.',
+    description: 'Basic lower-body movement that builds leg strength, mobility, and coordination. Foundation for advanced leg exercises.',
     executionSteps: [
       'Feet shoulder-width, toes turned out slightly (15-30 degrees).',
       'Stand tall — brace core.',
@@ -1929,7 +1929,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Quadriceps (unilateral, maximum)', 'Gluteus Maximus', 'Hamstrings', 'Hip Stabilizers', 'Core', 'Ankle Stabilizers'],
     prerequisites: ['squat', 'bulgarian-split-squat'],
     unlocks: ['weighted-pistol-squat', 'shrimp-squat'],
-    description: 'Single-leg squat with the free leg extended forward parallel to the ground. The ultimate unilateral leg strength test in calisthenics. Requires extraordinary quadriceps strength, ankle dorsiflexion, hip mobility, and balance.',
+    description: 'One-leg squat with other leg extended forward. Tests balance, mobility, and leg strength. Elite unilateral leg exercise.',
     executionSteps: [
       'Stand on one leg, free leg extended forward.',
       'Arms counterbalance forward.',
@@ -1972,7 +1972,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Lateral Deltoid (pushing arm)', 'Latissimus Dorsi (pulling arm)', 'Core (lateral flexion)', 'Obliques', 'Hip Abductors', 'Quadratus Lumborum'],
     prerequisites: ['pull-up', 'dip', 'push-up'],
     unlocks: ['human-flag-push-up'],
-    description: 'One of the most visually spectacular skills in calisthenics — holding the body perfectly horizontal perpendicular to a vertical pole. Requires one arm to push and one arm to pull simultaneously. Extremely difficult lateral core and shoulder movement.',
+    description: 'Horizontal hold on a vertical pole. Requires extreme shoulder and core strength with push-pull control. One of calisthenics’ most advanced skills.',
     executionSteps: [
       'Grip a vertical pole — top hand overhand (push), bottom hand underhand (pull).',
       'Horizontal distance between hands: shoulder width or slightly more.',
@@ -2015,7 +2015,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Wrist Flexors', 'Wrist Extensors', 'Forearm Muscles', 'Intrinsic Hand Muscles'],
     prerequisites: [],
     unlocks: ['wrist-push-up-conditioning'],
-    description: 'Controlled articular rotations of the wrist through its full range of motion under muscular control. The most important wrist prehab exercise for calisthenics — non-negotiable before any wrist-loading work.',
+    description: 'Full wrist rotations under control. Improves mobility, strength, and joint health. Essential for injury prevention in calisthenics.',
     executionSteps: [
       'Hold arm straight out, make a fist.',
       'Rotate wrist through full range: up, out, down, in.',
@@ -2056,7 +2056,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Thoracic Extensors', 'Shoulder Flexors', 'Hip Extensors', 'Quadriceps', 'Wrist Extensors'],
     prerequisites: [],
     unlocks: ['bridge-push-up'],
-    description: 'Full back bridge where the body forms an arch supported on hands and feet. The most comprehensive posterior chain and thoracic extension exercise. Develops back flexibility, shoulder extension mobility, and hip extension required for advanced gymnastics skills.',
+    description: 'Full-body arch supported on hands and feet. Builds back flexibility, shoulder and hip mobility. Key gymnastics bridge skill.',
     executionSteps: [
       'Lie on back, place hands beside ears (fingers pointing toward feet).',
       'Feet flat on floor, hip-width apart.',
@@ -2098,7 +2098,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Hip Flexors (extreme)', 'Triceps', 'Anterior Deltoid', 'Serratus Anterior', 'Core (compression extreme)'],
     prerequisites: ['V-sit', 'L-sit'],
     unlocks: [],
-    description: 'One of the most elite compression skills in calisthenics. Beyond the V-sit, the manna involves pushing the hands BEHIND the hips while holding the legs near-vertical or above. Requires extraordinary active hip flexion compression.',
+    description: 'Elite compression hold with hands behind hips and legs near vertical. Demands extreme hip flexor and core strength. One of calisthenics’ hardest skills.',
     executionSteps: [
       'Start from V-sit position.',
       'Shift hands behind hips while maintaining leg elevation.',
@@ -2138,7 +2138,7 @@ export const exercises: Exercise[] = [
     muscleGroups: ['Hip Flexors (maximum)', 'Rectus Abdominis', 'Triceps', 'Anterior Deltoid', 'Serratus Anterior'],
     prerequisites: ['L-sit'],
     unlocks: ['manna'],
-    description: 'Advanced compression hold where legs are raised above horizontal — body forms a V shape. Requires extraordinary hip flexor and compression strength beyond L-sit.',
+    description: 'Advanced compression hold with legs lifted above horizontal in a V shape. Builds extreme core and hip flexor strength.',
     executionSteps: [
       'Start from L-sit position.',
       'Continue pressing with arms, actively compressing hips.',
@@ -2190,7 +2190,7 @@ const additionalExercises: Exercise[] = [
     muscleGroups: ['Quadriceps', 'Gluteus Maximus', 'Hamstrings', 'Hip Stabilizers'],
     prerequisites: ['squat'],
     unlocks: ['pistol-squat'],
-    description: 'Single-leg squat with rear foot elevated on a surface. The primary unilateral leg strength builder and the most important prerequisite for pistol squats. Develops quad, glute, and hip stability that bodyweight squats cannot achieve.',
+    description: 'Rear-foot elevated single-leg squat. Builds quad, glute, and hip stability. Key progression toward pistol squats.',
     executionSteps: [
       'Stand 2-3 feet in front of a bench or chair (hip height).',
       'Reach one foot back and rest the top of the foot on the surface.',
@@ -2223,7 +2223,7 @@ const additionalExercises: Exercise[] = [
     muscleGroups: ['Quadriceps', 'Gluteus Maximus', 'Calves', 'Core'],
     prerequisites: ['squat'],
     unlocks: ['depth-jump', 'box-jump', 'broad-jump'],
-    description: 'Bodyweight squat performed explosively enough to leave the ground. The foundation of lower body power development and the basis of all jumping-based athletic performance.',
+    description: 'Explosive squat that leaves the ground. Builds leg power, strength, and athletic explosiveness.',
     executionSteps: [
       'Start in athletic squat position.',
       'Descend to full squat depth with controlled speed.',
@@ -2256,7 +2256,7 @@ const additionalExercises: Exercise[] = [
     muscleGroups: ['Rectus Abdominis', 'Hip Flexors (Iliopsoas)', 'Latissimus Dorsi', 'Core'],
     prerequisites: ['dead-hang', 'hollow-body', 'pull-up'],
     unlocks: ['dragon-flag', 'L-sit', 'front-lever'],
-    description: 'From a dead hang, raise both feet simultaneously to touch the bar — controlled, no swinging. Builds dynamic hip flexor and core strength critical for front lever, L-sit, and hanging core work.',
+    description: 'From a dead hang, lift feet to the bar without swinging. Builds core and hip flexor strength for advanced hanging skills.',
     executionSteps: [
       'Dead hang from bar, arms fully extended.',
       'Initiate with a slight posterior pelvic tilt — engage abs.',
@@ -2289,7 +2289,7 @@ const additionalExercises: Exercise[] = [
     muscleGroups: ['All Shoulder Stabilizers', 'Wrist Stabilizers', 'Core', 'Serratus Anterior'],
     prerequisites: ['freestanding-handstand'],
     unlocks: ['handstand-pirouette'],
-    description: 'Walking on hands while maintaining the inverted position. Develops dynamic balance and shoulder stability that transfers to all handstand skills. The transition from static to dynamic handstand mastery.',
+    description: 'Handstand movement while walking on hands. Builds balance, shoulder stability, and control. Key step toward advanced handstand skills.',
     executionSteps: [
       'Start from a stable freestanding handstand.',
       'Shift weight to one hand slightly.',
@@ -2322,7 +2322,7 @@ const additionalExercises: Exercise[] = [
     muscleGroups: ['Pectoralis Major', 'Anterior Deltoid', 'Triceps', 'Serratus Anterior', 'All Shoulder Stabilizers'],
     prerequisites: ['push-up', 'ring-support-hold'],
     unlocks: ['ring-dip', 'ring-muscle-up'],
-    description: 'Push-up with hands in gymnastic rings positioned near floor level. The instability of rings dramatically increases stabilizer activation over floor push-ups. Excellent first ring exercise for building ring-specific strength.',
+    description: 'Push-up using low gymnastic rings. Adds instability to build stabilizer strength. First step in ring training.',
     executionSteps: [
       'Set rings to just above floor level.',
       'Assume push-up position with hands in rings.',
@@ -2356,7 +2356,7 @@ const additionalExercises: Exercise[] = [
     muscleGroups: ['Pectoralis Major', 'Anterior Deltoid', 'Triceps', 'Shoulder External Rotators', 'Rear Deltoid'],
     prerequisites: ['dip', 'back-lever'],
     unlocks: ['impossible-dip'],
-    description: 'A dip performed behind the back — hands gripping a bar behind the body, dipping below bar level. An extreme shoulder extension demand that builds the posterior shoulder strength required for back lever and iron cross progressions.',
+    description: 'Dip with hands behind the body on a bar. Builds deep shoulder extension strength. Used for advanced ring and lever progressions.',
     executionSteps: [
       'Stand with back to a bar at hip height.',
       'Grip bar behind back with overhand grip.',
@@ -2389,7 +2389,7 @@ const additionalExercises: Exercise[] = [
     muscleGroups: ['Latissimus Dorsi (wide)', 'Teres Major', 'Rear Deltoid', 'Biceps (reduced)'],
     prerequisites: ['pull-up'],
     unlocks: ['front-lever'],
-    description: 'Pull-up performed with hands significantly wider than shoulder-width. Increases the horizontal abduction of the arm, maximizing outer lat fiber recruitment and building the V-taper. Reduces bicep contribution and increases shoulder range requirement.',
+    description: 'Wide-grip pull-up. Targets outer lats and builds back width. Reduces biceps involvement and increases difficulty.',
     executionSteps: [
       'Grip bar at 1.5-2x shoulder width.',
       'Dead hang — full arm extension.',
@@ -2421,7 +2421,7 @@ const additionalExercises: Exercise[] = [
     muscleGroups: ['Latissimus Dorsi (unilateral)', 'Biceps', 'Rear Deltoid', 'Core (anti-rotation)'],
     prerequisites: ['pull-up', 'wide-grip-pull-up'],
     unlocks: ['one-arm-pull-up'],
-    description: 'Pull-up where at the top position, the body moves laterally — one arm straight, one bent — simulating a typewriter motion. The most effective one-arm pull-up progression, loading one arm significantly more than the other in a dynamic fashion.',
+    description: 'Pull-up that shifts side to side at the top position. Builds uneven strength for one-arm pull-up progression.',
     executionSteps: [
       'Pull up to bar — chin over.',
       'At top, shift body laterally to one side.',
@@ -2453,7 +2453,7 @@ const additionalExercises: Exercise[] = [
     muscleGroups: ['Anterior Deltoid (maximum)', 'Serratus Anterior', 'Pectoralis Major', 'Triceps', 'Core'],
     prerequisites: ['full-planche'],
     unlocks: ['maltese'],
-    description: 'The push-up performed in full planche position — the most difficult straight-arm pushing movement in all of calisthenics. From planche position, lower body while maintaining horizontal position, then press back. An extraordinary demonstration of anterior deltoid strength.',
+    description: 'Push-up performed in a planche position. Extremely advanced straight-arm push movement. Requires elite shoulder and core strength.',
     executionSteps: [
       'Achieve full planche position — body horizontal, arms straight.',
       'Bend elbows to lower body toward floor while MAINTAINING planche position.',
@@ -2486,7 +2486,7 @@ const additionalExercises: Exercise[] = [
     muscleGroups: ['Pectoralis Major (extreme)', 'Anterior Deltoid', 'Serratus Anterior', 'Coracobrachialis', 'Biceps'],
     prerequisites: ['iron-cross', 'full-planche'],
     unlocks: [],
-    description: 'An extremely rare and elite gymnastics skill combining the horizontal body position of the planche with the wide arm position of the iron cross. One of the most demanding static holds in all of athletics. The body is held horizontal on rings with arms extended to the sides.',
+    description: 'Elite ring hold combining planche and iron cross positions. Body stays horizontal with arms extended wide. One of the hardest static strength skills.',
     executionSteps: [
       'From ring support, lower into iron cross position.',
       'Simultaneously shift body forward into planche-like horizontal position.',

@@ -287,7 +287,7 @@ export const roadmapPhases: RoadmapPhase[] = [
     phase: 3,
     title: 'Phase 3: ADVANCED SKILL MASTERY',
     subtitle: 'The Elite Skills — Years in the Making',
-    duration: '12-36 months (highly individual)',
+    duration: '12-36 weeks',
     level: 'advanced',
     color: 'from-orange-500 to-red-600',
     description: 'Phase 3 builds advanced skills like planche, front lever, handstand push-ups, one-arm push-ups, and ring work. Progress is slow and requires patience, consistency, and precision.',

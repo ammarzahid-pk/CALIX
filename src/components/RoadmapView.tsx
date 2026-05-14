@@ -51,7 +51,7 @@ const PhaseCard: React.FC<{ phase: RoadmapPhase; isCompleted: boolean; onToggleC
         className="p-6 cursor-pointer"
         onClick={() => setExpanded(!expanded)}
       >
-        <div className="flex items-start justify-between gap-4">
+        <div className="flex items-start justify-between gap-2">
           <div className="flex items-start gap-4">
             {/* Phase number */}
             <div className={`flex-shrink-0 w-14 h-14 rounded-2xl flex items-center justify-center bg-gradient-to-br ${phase.color}`}>
@@ -60,11 +60,11 @@ const PhaseCard: React.FC<{ phase: RoadmapPhase; isCompleted: boolean; onToggleC
 
             <div className="flex-1">
               <div className="flex items-center gap-2 flex-wrap">
-                <h3 className="text-lg font-black" style={{ color: 'var(--calix-text)' }}>
+                <h3 className="text-md font-black" style={{ color: 'var(--calix-text)' }}>
                   {phase.title}
                 </h3>
                 {isCompleted && (
-                  <span className="text-xs px-2 py-1 rounded-full font-bold"
+                  <span className="text-sm px-2 py-1 rounded-full font-bold"
                     style={{ backgroundColor: 'rgba(0,255,136,0.2)', color: '#00ff88', border: '1px solid rgba(0,255,136,0.5)' }}>
                     ✓ Completed
                   </span>
@@ -73,7 +73,7 @@ const PhaseCard: React.FC<{ phase: RoadmapPhase; isCompleted: boolean; onToggleC
               <p className="text-sm font-medium mt-0.5" style={{ color: 'var(--calix-accent)' }}>
                 {phase.subtitle}
               </p>
-              <div className="flex flex-wrap gap-4 mt-2">
+              <div className="flex flex-wrap gap-2 mt-2">
                 <span className="text-xs calix-muted flex items-center gap-1">
                   <span>⏱️</span> {phase.duration}
                 </span>
@@ -84,10 +84,10 @@ const PhaseCard: React.FC<{ phase: RoadmapPhase; isCompleted: boolean; onToggleC
             </div>
           </div>
 
-          <div className="flex items-center gap-3 flex-shrink-0">
+          <div className="flex items-center gap-2 flex-shrink-0">
             <button
               onClick={e => { e.stopPropagation(); onToggleComplete(); }}
-              className="px-3 py-1.5 rounded-lg text-xs font-medium transition-all"
+              className="px-2 py-1.5 rounded-lg text-xs font-medium transition-all"
               style={{
                 backgroundColor: isCompleted ? 'rgba(0,255,136,0.2)' : 'var(--calix-surface2)',
                 color: isCompleted ? '#00ff88' : 'var(--calix-muted)',
